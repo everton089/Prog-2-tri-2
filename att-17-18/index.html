@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Técnico em Desenvolvimento de Sistemas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="topo" class="cabecalho">
+    <p class="logo">Escola Técnica Exemplo</p>
+    <nav class="menu" aria-label="Menu principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#aprenda">O que você vai aprender</a></li>
+        <li><a href="#grade">Grade</a></li>
+        <li><a href="#inscricao">Inscrição</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaque">
+      <div class="destaque-texto">
+        <h1>Técnico em Desenvolvimento de Sistemas</h1>
+        <p>Aprenda a criar sites, aplicativos e bancos de dados e entre no mercado de tecnologia em apenas 18 meses.</p>
+        <a class="botao" href="#inscricao">Quero me inscrever</a>
+      </div>
+      <img src="curso.svg" alt="Ilustração de um notebook exibindo código de programação">
+    </section>
+
+    <section id="sobre" class="bloco">
+      <h2>Sobre o curso</h2>
+      <p>O curso une teoria e prática. Você desenvolve projetos reais desde o primeiro módulo e termina com um portfólio para mostrar às empresas.</p>
+      <p>As aulas acontecem em laboratório, com acompanhamento de professores que atuam no mercado.</p>
+    </section>
+
+    <section id="aprenda" class="bloco">
+      <h2>O que você vai aprender</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Programação</h3>
+          <p>Lógica, JavaScript e orientação a objetos.</p>
+        </article>
+        <article class="card">
+          <h3>Web</h3>
+          <p>HTML, CSS e páginas responsivas.</p>
+        </article>
+        <article class="card">
+          <h3>Banco de dados</h3>
+          <p>Modelagem e SQL para armazenar informações.</p>
+        </article>
+      </div>
+      <h3>Diferenciais</h3>
+      <ul>
+        <li>Aulas práticas em laboratório</li>
+        <li>Projeto final com apresentação</li>
+        <li>Certificado de técnico reconhecido</li>
+      </ul>
+    </section>
+
+    <section id="grade" class="bloco">
+      <h2>Grade curricular</h2>
+      <div class="tabela-area">
+        <table>
+          <thead>
+            <tr><th>Módulo</th><th>Disciplina</th><th>Carga horária</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Lógica de Programação</td><td>80 h</td></tr>
+            <tr><td>2</td><td>Desenvolvimento Web</td><td>120 h</td></tr>
+            <tr><td>3</td><td>Banco de Dados</td><td>100 h</td></tr>
+            <tr><td>4</td><td>Programação Orientada a Objetos</td><td>120 h</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="inscricao" class="bloco">
+      <h2>Tenho interesse</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="turno">Turno</label>
+        <select id="turno" name="turno">
+          <option>Manhã</option>
+          <option>Tarde</option>
+          <option>Noite</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 Escola Técnica Exemplo. Todos os direitos reservados.</p>
+    <p><a href="#topo">Voltar ao topo</a></p>
+  </footer>
+
+</body>
+</html>
